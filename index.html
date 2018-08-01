@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+  <title>Number Guesser!</title>
+  <link rel="stylesheet" href="styles.css" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,700%7CRaleway:300,700" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <header role="banner"><span id="number">Number</span><span id="guesser"> Guesser</span></header>
+
+  <article>
+
+    <form>
+
+      <input type="text" class="userGuess" id="userGuess" role=form aria-label="Guess a Number" placeholder="Enter your guess">
+
+      <button type="submit" class="guessButton" id="guess">Guess</button>
+
+      <button type="reset" class="clearButton" id="clear">Clear</button>
+
+    </form>
+
+    <p>Your last guess was</p>
+
+    <p class="guessNumber">  </p>
+    <p class="outputMessage" id="outputMessage">  </p>
+
+    <button type="reset" class="resetButton" id="reset">Reset</button>
+
+  </article>
+
+</body>
+
+<script src="script.js"></script>
+
+</html>

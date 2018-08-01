@@ -1,0 +1,125 @@
+article {
+  margin: auto;
+  margin-top: 50px;
+  text-align: center;
+  width: 40%;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+}
+
+header {
+  background-color: #404041;
+  font-size: 67px;
+  padding: 15px;
+  text-align: center;
+}
+
+input {
+  border: 2px solid #D0D2D3;
+  font-size: 2em;
+  padding: 4px;
+  padding-left: 12px;
+  margin-bottom: 30px;
+  width: 13em;
+}
+
+p {
+  color: #404041;
+  font-size: 29px;
+  margin-bottom: 20px;
+  margin-top: 62px;
+}
+
+::placeholder {
+  color: #D0D2D3;
+  font-weight: 300;
+}
+
+.clearButton {
+  background-color: #D0D2D3;
+  border-radius: 150px;
+  color: #FFFFFF;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 22px;
+  height: 40px;
+  width: 210px;
+}
+
+.clearButton:active {
+  background-color: #929497;
+  color: #FFFFFF;
+}
+
+.clearButton:hover {
+  background-color: #EB008B;
+  color: #FFFFFF;
+}
+
+.guessButton {
+  background-color: #D0D2D3;
+  border-radius: 150px;
+  color: #FFFFFF;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 25px;
+  height: 40px;
+  margin-left: 1px;
+  margin-right: 22px;
+  width: 210px;
+}
+
+.guessButton:active {
+  background-color: #929497;
+  color: #FFFFFF;
+}
+
+.guessButton:hover {
+  background-color: #EB008B;
+  color: #FFFFFF;
+}
+
+.guessNumber{
+  color: #ED458B;
+  font-size: 206px;
+  height: 304px;
+  margin: -52px;
+}
+
+.outputMessage {
+  margin-bottom: 56px;
+  margin-top: 0px;
+}
+
+.resetButton {
+  background-color: #D0D2D3;
+  border-radius: 150px;
+  color: #FFFFFF;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 22px;
+  height: 40px;
+  width: 430px;
+}
+
+.resetButton:active {
+  background-color: #929497;
+  color: #FFFFFF;
+}
+
+.resetButton:hover {
+  background-color: #EB008B;
+  color: #FFFFFF;
+}
+
+#guesser {
+  color: #E6E7E8;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: lighter;
+}
+
+#number {
+  color: #ED458B;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+}
